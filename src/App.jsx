@@ -68,12 +68,12 @@ const App = () => {
 
   const getFilterClass = (mode) => {
     switch (mode) {
-      case 'sepia': return 'sepia-[.8] contrast-125 brightness-90 hue-rotate-[-15deg] saturate-[.8]';
+      case 'sepia': return 'sepia-[.3] contrast-125 brightness-90 hue-rotate-[-15deg] saturate-[.8]';
       case 'neon': return 'saturate-[1.8] contrast-110 hue-rotate-[10deg] brightness-110';
       case 'noir': return 'grayscale contrast-[1.4] brightness-90';
       case 'retro': return 'contrast-[0.9] brightness-110 sepia-[0.3] hue-rotate-[-30deg] saturate-[0.7]';
       case 'cyber': return 'contrast-[1.3] brightness-105 hue-rotate-[180deg] saturate-[1.2]';
-      case 'koda': return 'contrast-[1.3] saturate-[1.6] brightness-100 sepia-[0.2] hue-rotate-[-10deg]'; 
+      case 'koda': return 'contrast-[1.6] saturate-[1.6] brightness-100 sepia-[0.0] hue-rotate-[-09deg]'; 
       default: return '';
     }
   };
