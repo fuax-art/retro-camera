@@ -274,12 +274,12 @@ const App = () => {
         .scrollbar-hide::-webkit-scrollbar { display: none; }
         .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
         @keyframes handheld-shake {
-            0% { transform: translate(0, 0) rotate(0deg); }
-            25% { transform: translate(2px, 2px) rotate(0.5deg); }
-            50% { transform: translate(-1px, 1px) rotate(-0.5deg); }
-            75% { transform: translate(-2px, -1px) rotate(0.2deg); }
-            100% { transform: translate(0, 0) rotate(0deg); }
-        }
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(0.5px, 0.5px) rotate(0.1deg); }
+    50% { transform: translate(-0.5px, 0.2px) rotate(-0.1deg); }
+    75% { transform: translate(-0.2px, -0.5px) rotate(0.05deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
         .animate-handheld-shake { animation: handheld-shake 4s infinite ease-in-out; }
         @keyframes print-slide {
             0% { transform: translateY(-100%); opacity: 0; }
